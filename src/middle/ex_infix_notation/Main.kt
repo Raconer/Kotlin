@@ -1,5 +1,7 @@
 package middle.ex_infix_notation
 
+// 두개의 피 연산자의 데이터를 가져와 사용할수있다.
+// 함수를 연산자 처럼 사용할수있따.
 class Point(var x:Int = 0, var y:Int = 0)
 {
     // base를 원점으로 생각했을때의 좌표를 반환한다.

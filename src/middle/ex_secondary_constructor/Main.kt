@@ -1,5 +1,7 @@
 package middle.ex_secondary_constructor
 
+
+// 보조 생성자는 결국 받는 인자가 다른 생성자 이다.
 class Time(val second:Int){
     init {
         println("init 블록 실행 중")

@@ -49,6 +49,7 @@ class Employee(private val initial:Int, private val years:Int):Person()
     override  fun getSalary() = initial * (1.0 + years/10.0).toInt()
 }
 // 구성원으로부터 학교의 재정을 구한다.
+// vararg 여러개의 인수를 받을수 있다.
 fun getFinance(vararg  persons:Person):Int
 {
     var i = 0
